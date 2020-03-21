@@ -8,7 +8,7 @@ import "dart:async";
 void main() async {
   load();
   var bot = new Telegram(env['BOT']);
-
+print("Started");
   var stream = new Stream.periodic(const Duration(days: 1, seconds: 10), (count) async {
     var check = await  Directory("../world").exists();
     if(check) {
