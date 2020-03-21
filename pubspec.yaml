@@ -1,0 +1,6 @@
+name: minecraft_backup
+dependencies:
+  archive: ^2.0.13
+  intl: ^0.16.1
+  teledart: ^0.0.36
+  dotenv: ^2.0.0
